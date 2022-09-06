@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  width: 100%;
+}
+h1,
+p {
+  text-align: center;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(55, 124, 203);
+}
+
+.form {
+  display: flex;
+  width: 100%;
+}
+
+.form div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid rgb(55, 124, 203);
+  padding: 100px;
+  width: 50%;
+}
+
+.form input {
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+.form label {
+  text-align: start;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(55, 124, 203);
+}
+
+.buttons {
+  display: flex;
+  width: 300px;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+
+.buttons button {
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: 0;
+  background-color: rgb(55, 124, 203);
+  color: white;
+  font-size: 16px;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Average Calculator</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <section class="main">
+      <h1>Average Calculator</h1>
+      <p>
+        Fill the form to calculate and add your average to the list
+      </p>
+      <div class="form">
+        <div>
+          <label for="firstName">First Name</label><br />
+          <input
+            id="firstName"
+            type="text"
+            placeholder="Fill your first name"
+          /><br />
+          <label for="lastName">Last Name</label><br />
+          <input
+            id="lastName"
+            type="text"
+            placeholder="Fill your last name"
+          /><br />
+          <label for="department">Department</label><br />
+          <input
+            id="department"
+            type="text"
+            placeholder="Fill your department here"
+          /><br />
+          <label for="subject">Subject</label><br />
+          <input
+            id="subject"
+            type="text"
+            placeholder="Fill name of subject"
+          />
+          <label for="mark">Mark</label><br />
+          <input
+            id="mark"
+            type="number"
+            placeholder="Fill mark you had in subject"
+          />
+          <span class="buttons">
+            <button onclick="add()" id="add">Add</button>
+            <button onclick="submit()" id="submit">Submit</button>
+          </span>
+        </div>
+        <div id="list"></div>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
